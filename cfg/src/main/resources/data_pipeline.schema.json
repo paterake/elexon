@@ -1,0 +1,52 @@
+{
+  "$id": "https://elexon.paterake.com/dataPipeline.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DataPipeline",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "reportName": {
+        "type": "string",
+        "description": "BMRS ReportName."
+      },
+      "modelClass": {
+        "type": "string",
+        "description": "Java Class for binding the XML data via JAXB.  Note, derived from code",
+        "minimum": 0
+      },
+      "rdsClass": {
+        "type": "string",
+        "description": "Java Class transforming the modelClass data and loading into the database.",
+        "minimum": 0
+      },
+      "defaultPeriodOffset": {
+        "type": "int",
+        "description": "Offset from the current settlementperiod.  A multiple of 30mins",
+        "minimum": 0
+      },
+      "defaultFromDateOffset": {
+        "type": "int",
+        "description": "Number of days in the future/past for setting FromDate/EventStart",
+        "minimum": 0
+      },
+      "defaultToDateOffset": {
+        "type": "int",
+        "description": "Number of days in the future/past for setting ToDate/EventEnd",
+        "minimum": 0
+      },
+      "searchParameters": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "fixedParameterList": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

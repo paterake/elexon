@@ -1,0 +1,42 @@
+URL:
+https://www.elexonportal.co.uk
+
+REST API:
+ELEXON Portal REMIT User Guide v2.0.pdf
+
+Push Data Guide:
+https://www.elexon.co.uk/guidance-note/bmrs-api-data-push-user-guide/
+
+XSDs
+Under the document folder :  	BMRS API & Data Push
+
+RDS
+DB Instance     :
+Master Username :
+Master Password :
+
+HOST :
+Port : 5432
+Database :
+Username :
+Pwd :
+
+
+S3 Storage:
+bucketName/reportName/settlementDate/reportName-settlementDate-settlementPeriod.xml
+
+
+ssh -i "<pemfilename>.pem" <ec2-instance>.eu-west-1.compute.amazonaws.com
+
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u171-b11/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u171-linux-x64.rpm
+sudo yum install -y jdk-8u171-linux-x64.rpm
+sudo /usr/sbin/alternatives --config java
+
+C:\__tools\putty\pscp -i D:\__data\pem\<putty_converted_pem>.ppk D:\__code\__git\paterake\elexon\pipeline\target\pipeline-1.0-SNAPSHOT.jar ec2-user@ec2-34-253-74-61.eu-west-1.compute.amazonaws.com:/home/ec2-user
+
+java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader PHYBMDATA
+java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.ingest.ElexonCfg
+java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.ingest.XMLValidation
+
+Is cron running:
+sudo service crond status

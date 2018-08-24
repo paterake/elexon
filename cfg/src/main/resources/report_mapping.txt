@@ -1,0 +1,31 @@
+Section	ReportName	SearchParameters
+5.1.6	B1770	SettlementDate	Period
+5.1.21	B1440	SettlementDate	Period
+5.1.22	B1610	SettlementDate	Period
+5.1.24	B1630	SettlementDate	Period
+5.2.1	TEMP	FromDate	ToDate
+5.2.4	SYSWARN	FromDate	ToDate
+5.2.7	FREQ	FromDate	ToDate
+5.2.9	DEVINDOD	FromDate	ToDate
+5.2.13	WINDFORPK	FromDate	ToDate
+5.2.14	WINDFORFUELHH	FromDate	ToDate
+5.2.15	FUELINSTHHCUR
+5.2.16	FUELINST	FromDate	ToDate
+5.2.21	UOU2T14D
+5.2.24	UOU2T52W
+5.2.37	INDOITSDO	FromDate	ToDate
+5.2.38	MELIMBALNGC	FromDate	ToDate
+5.2.40	DEMMF2T14D
+5.2.41	DEMMF2T52W
+5.2.42	SOSOP	SettlementDate
+5.2.43	SOSOT
+5.2.44	PKDEMYESTTDYTOM
+5.2.45	INDPKDEMINFO
+5.2.46	SYSDEM	FromDate	ToDate
+5.2.49	DYNBMDATA	SettlementDate	SettlementPeriod
+5.2.50	DERBMDATA	SettlementDate	SettlementPeriod
+5.2.53	MKTDEPTHDATA	SettlementDate
+5.2.56	SYSMSG
+5.2.58	SYSWARNTDYTOM
+5.2.59	HISTSYSWARN
+5.2.60	LOLPDRM

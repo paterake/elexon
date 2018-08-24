@@ -1,0 +1,35 @@
+0 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader UOU2T14D
+2,32 * * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader PHYBMDATA
+2,32 * * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader DETSYSPRICES
+2 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader FORDAYDEM
+4 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader MessageListRetrieval
+2,32 * * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader B1770
+2,32 * * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader B1440
+2,32 * * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader B1610
+2,32 * * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader B1630
+6 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader TEMP
+8 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader SYSWARN
+10 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader FREQ
+12 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader DEVINDOD
+14 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader WINDFORPK
+16 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader WINDFORFUELHH
+18 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader FUELINSTHHCUR
+20 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader FUELINST
+22 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader INDOITSDO
+24 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader MELIMBALNGC
+26 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader DEMMF2T14D
+28 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader DEMMF2T52W
+30 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader SOSOP
+32 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader SOSOT
+34 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader PKDEMYESTTDYTOM
+36 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader INDPKDEMINFO
+38 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader SYSDEM
+2,32 * * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader DYNBMDATA
+2,32 * * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader DERBMDATA
+40 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader MKTDEPTHDATA
+42 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader SYSMSG
+44 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader HISTSYSWARN
+46 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader LOLPDRM
+48 7 * * * java -cp pipeline-1.0-SNAPSHOT.jar com.paterake.elexon.pipeline.DataLoader UOU2T52W
+
+

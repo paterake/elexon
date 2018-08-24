@@ -1,0 +1,289 @@
+[
+  {
+    "reportName": "UOU2T14D",
+    "modelClass": "DataBodyUOU2T14D",
+    "databaseClass": "InsertUOU2T14D"
+  },
+  {
+    "reportName": "UOU2T52W",
+    "modelClass": "DataBodyUOU2T52W",
+    "databaseClass": "InsertUOU2T52W"
+  },
+  {
+    "reportName": "PHYBMDATA",
+    "modelClass": "DataBodyPHYBMDATA",
+    "databaseClass": "InsertPHYBMDATA",
+    "searchParameterList": [
+      "SettlementDate",
+      "SettlementPeriod"
+    ]
+  },
+  {
+    "reportName": "DETSYSPRICES",
+    "modelClass": "DataBodyDETSYSPRICES",
+    "databaseClass": "InsertDETSYSPRICES",
+    "defaultPeriodOffset": "-5",
+    "searchParameterList": [
+      "SettlementDate",
+      "SettlementPeriod"
+    ]
+  },
+  {
+    "reportName": "FORDAYDEM",
+    "modelClass": "DataBodyFORDAYDEM",
+    "databaseClass": "InsertFORDAYDEM",
+    "defaultToDateOffset": 2,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ],
+    "fixedParameterList": [
+      "ZoneIdentifier=N"
+    ]
+  },
+  {
+    "reportName": "MessageListRetrieval",
+    "modelClass": "DataBodyMessageListRetrieval",
+    "databaseClass": "InsertMessageListRetrieval",
+    "defaultToDateOffset": 15,
+    "searchParameterList": [
+      "EventStart",
+      "EventEnd"
+    ]
+  },
+  {
+    "reportName": "B1770",
+    "modelClass": "DataBodyB1770",
+    "databaseClass": "InsertB1770",
+    "defaultPeriodOffset": -4,
+    "searchParameterList": [
+      "SettlementDate",
+      "Period"
+    ]
+  },
+  {
+    "reportName": "B1440",
+    "modelClass": "DataBodyB1440",
+    "databaseClass": "InsertB1440",
+    "searchParameterList": [
+      "SettlementDate",
+      "Period"
+    ]
+  },
+  {
+    "reportName": "B1610",
+    "modelClass": "DataBodyB1610",
+    "databaseClass": "InsertB1610",
+    "defaultPeriodOffset": -336,
+    "searchParameterList": [
+      "SettlementDate",
+      "Period"
+    ]
+  },
+  {
+    "reportName": "B1630",
+    "modelClass": "DataBodyB1630",
+    "databaseClass": "InsertB1630",
+    "defaultPeriodOffset": -5,
+    "searchParameterList": [
+      "SettlementDate",
+      "Period"
+    ]
+  },
+  {
+    "reportName": "TEMP",
+    "modelClass": "DataBodyTEMP",
+    "databaseClass": "InsertTEMP",
+    "defaultFromDateOffset": -90,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "SYSWARN",
+    "modelClass": "DataBodySYSWARN",
+    "databaseClass": "InsertSYSWARN",
+    "defaultFromDateOffset": -31,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "FREQ",
+    "modelClass": "DataBodyFREQ",
+    "databaseClass": "InsertFREQ",
+    "defaultFromDateOffset": -2,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "DEVINDOD",
+    "modelClass": "DataBodyFREQ",
+    "databaseClass": "InsertFREQ",
+    "defaultFromDateOffset": -90,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "WINDFORPK",
+    "modelClass": "DataBodyWINDFORPK",
+    "databaseClass": "InsertWINDFORPK",
+    "defaultToDateOffset": 1,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "WINDFORFUELHH",
+    "modelClass": "DataBodyWINDFORFUELHH",
+    "databaseClass": "InsertWINDFORFUELHH",
+    "defaultFromDateOffset": -1,
+    "defaultToDateOffset": 1,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "FUELINSTHHCUR",
+    "modelClass": "DataBodyFUELINSTHHCUR",
+    "databaseClass": "InsertFUELINSTHHCUR"
+  },
+  {
+    "reportName": "FUELINST",
+    "modelClass": "DataBodyFUELINST",
+    "databaseClass": "InsertFUELINST",
+    "defaultFromDateOffset": -1,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "INDOITSDO",
+    "modelClass": "DataBodyINDOITSDO",
+    "databaseClass": "InsertINDOITSDO",
+    "defaultFromDateOffset": -1,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "MELIMBALNGC",
+    "modelClass": "DataBodyMELIMBALNGC",
+    "databaseClass": "InsertMELIMBALNGC",
+    "defaultToDateOffset": 2,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ],
+    "fixedParameterList": [
+      "ZoneIdentifier=N"
+    ]
+  },
+  {
+    "reportName": "DEMMF2T14D",
+    "modelClass": "DataBodyDEMMF2T14D",
+    "databaseClass": "InsertDEMMF2T14D"
+  },
+  {
+    "reportName": "DEMMF2T52W",
+    "modelClass": "DataBodyDEMMF2T52W",
+    "databaseClass": "InsertDEMMF2T52W"
+  },
+  {
+    "reportName": "SOSOP",
+    "modelClass": "DataBodySOSOP",
+    "databaseClass": "InsertSOSOP",
+    "searchParameterList": [
+      "SettlementDate"
+    ]
+  },
+  {
+    "reportName": "SOSOT",
+    "modelClass": "DataBodySOSOT",
+    "databaseClass": "InsertSOSOT"
+  },
+  {
+    "reportName": "PKDEMYESTTDYTOM",
+    "modelClass": "DataBodyPKDEMYESTTDYTOM",
+    "databaseClass": "InsertPKDEMYESTTDYTOM"
+  },
+  {
+    "reportName": "INDPKDEMINFO",
+    "modelClass": "DataBodyINDPKDEMINFO",
+    "databaseClass": "InsertINDPKDEMINFO"
+  },
+  {
+    "reportName": "SYSDEM",
+    "modelClass": "DataBodySYSDEM",
+    "databaseClass": "InsertSYSDEM",
+    "defaultFromDateOffset": -1,
+    "defaultToDateOffset": 1,
+    "searchParameterList": [
+      "FromDate",
+      "ToDate"
+    ]
+  },
+  {
+    "reportName": "DYNBMDATA",
+    "modelClass": "DataBodyDYNBMDATA",
+    "databaseClass": "InsertDYNBMDATA",
+    "searchParameterList": [
+      "SettlementDate",
+      "SettlementPeriod"
+    ]
+  },
+  {
+    "reportName": "DERBMDATA",
+    "modelClass": "DataBodyDERBMDATA",
+    "databaseClass": "InsertDERBMDATA",
+    "defaultPeriodOffset": "-4",
+    "searchParameterList": [
+      "SettlementDate",
+      "SettlementPeriod"
+    ]
+  },
+  {
+    "reportName": "MKTDEPTHDATA",
+    "modelClass": "DataBodyMKTDEPTHDATA",
+    "databaseClass": "InsertMKTDEPTHDATA",
+    "defaultPeriodOffset": -48,
+    "searchParameterList": [
+      "SettlementDate"
+    ]
+  },
+  {
+    "reportName": "SYSMSG",
+    "modelClass": "DataBodySYSMSG",
+    "databaseClass": "InsertSYSMSG"
+  },
+  {
+    "reportName": "SYSWARNTDYTOM",
+    "modelClass": "DataBodySYSWARNTDYTOM",
+    "databaseClass": "InsertSYSWARNTDYTOM"
+  },
+  {
+    "reportName": "HISTSYSWARN",
+    "modelClass": "DataBodyHISTSYSWARN",
+    "databaseClass": "InsertHISTSYSWARN"
+  },
+  {
+    "reportName": "LOLPDRM",
+    "modelClass": "DataBodyLOLPDRM",
+    "databaseClass": "InsertLOLPDRM",
+    "defaultToDateOffset": 2,
+    "searchParameterList": [
+      "FromSettlementDate",
+      "ToSettlementDate"
+    ]
+  }
+]
